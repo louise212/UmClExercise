@@ -1,7 +1,18 @@
 {
   "Deploy": {
     "Project": {
-      "Workspaces": []
+      "Name": "louises loyal opossum",
+      "Alias": "louises-loyal-opossum",
+      "Id": "dbbefa82-607b-4885-8d94-772bc59226d6",
+      "TrialExpireDate": "2025-07-10T12:29:04.0000000",
+      "Workspaces": [
+        {
+          "Id": "a9cc9269-05e8-4484-8683-ff4af5f520c8",
+          "Name": "Live",
+          "Type": "live",
+          "Url": "https://louises-loyal-opossum.euwest01.umbraco.io"
+        }
+      ]
     },
     "Settings": {}
   },
