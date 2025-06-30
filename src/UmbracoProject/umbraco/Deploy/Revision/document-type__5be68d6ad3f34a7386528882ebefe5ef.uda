@@ -1,0 +1,38 @@
+{
+  "Name": "Blogs Folder",
+  "Alias": "blogsFolder",
+  "DefaultTemplate": "umb://template/6efea116676a414f8b802ea784fd5768",
+  "AllowedTemplates": [
+    "umb://template/6efea116676a414f8b802ea784fd5768"
+  ],
+  "HistoryCleanup": {},
+  "Icon": "icon-folders",
+  "Thumbnail": "folder.png",
+  "Permissions": {
+    "AllowedChildContentTypes": [
+      "umb://document-type/92d0f503264a432587535bffe40e3fe5"
+    ]
+  },
+  "ListView": "c0808dd3-8133-4e4b-8ce8-e2bea84a96a4",
+  "CompositionContentTypes": [],
+  "PropertyGroups": [],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/5be68d6ad3f34a7386528882ebefe5ef",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/c0808dd381334e4b8ce8e2bea84a96a4",
+      "Mode": "Exist"
+    },
+    {
+      "Udi": "umb://document-type/92d0f503264a432587535bffe40e3fe5",
+      "Mode": "Exist"
+    },
+    {
+      "Udi": "umb://template/6efea116676a414f8b802ea784fd5768",
+      "Ordering": true,
+      "Mode": "Exist"
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "16.0.0"
+}
