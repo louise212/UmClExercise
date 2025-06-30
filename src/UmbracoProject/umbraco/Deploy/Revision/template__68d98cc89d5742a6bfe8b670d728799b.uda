@@ -2,10 +2,16 @@
   "Name": "Home",
   "Alias": "Home",
   "File": "umb://template-file/Home.cshtml",
+  "Master": "umb://template/d39a2e4d9ce141cfa9842c3be1e1d033",
   "Udi": "umb://template/68d98cc89d5742a6bfe8b670d728799b",
   "Dependencies": [
     {
       "Udi": "umb://template-file/Home.cshtml",
+      "Ordering": true,
+      "Mode": "Exist"
+    },
+    {
+      "Udi": "umb://template/d39a2e4d9ce141cfa9842c3be1e1d033",
       "Ordering": true,
       "Mode": "Exist"
     }
