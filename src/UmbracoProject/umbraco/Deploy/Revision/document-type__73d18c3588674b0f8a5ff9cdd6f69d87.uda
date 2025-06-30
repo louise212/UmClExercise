@@ -9,6 +9,7 @@
   "Icon": "icon-home",
   "Thumbnail": "folder.png",
   "Permissions": {
+    "AllowedAtRoot": true,
     "AllowedChildContentTypes": []
   },
   "CompositionContentTypes": [],
