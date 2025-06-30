@@ -1,0 +1,45 @@
+{
+  "Name": "Text Page",
+  "Alias": "textPage",
+  "DefaultTemplate": "umb://template/9dccb1da538740779518ed323616d545",
+  "AllowedTemplates": [
+    "umb://template/9dccb1da538740779518ed323616d545"
+  ],
+  "HistoryCleanup": {},
+  "Icon": "icon-page-add",
+  "Thumbnail": "folder.png",
+  "Permissions": {
+    "AllowedChildContentTypes": []
+  },
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "dd44af21-8cf5-4d43-887c-c4f47342c7f9",
+      "Name": "Content",
+      "Alias": "content",
+      "PropertyTypes": [
+        {
+          "Key": "5604d024-c249-4549-b459-84088290cf1f",
+          "Alias": "bodyText",
+          "DataType": "umb://data-type/ca90c9500aff4e72b976a30b1ac57dad",
+          "Name": "Body Text"
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/60acd1b3fa4f4b2383572d8c89f72112",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/ca90c9500aff4e72b976a30b1ac57dad",
+      "Ordering": true
+    },
+    {
+      "Udi": "umb://template/9dccb1da538740779518ed323616d545",
+      "Ordering": true,
+      "Mode": "Exist"
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "16.0.0"
+}
