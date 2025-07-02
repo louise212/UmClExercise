@@ -1,0 +1,45 @@
+{
+  "Name": "News Article",
+  "Alias": "newsArticle",
+  "DefaultTemplate": "umb://template/79460b6b04044776825d5cbc888d8fd6",
+  "AllowedTemplates": [
+    "umb://template/79460b6b04044776825d5cbc888d8fd6"
+  ],
+  "HistoryCleanup": {},
+  "Icon": "icon-newspaper",
+  "Thumbnail": "folder.png",
+  "Permissions": {
+    "AllowedChildContentTypes": []
+  },
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "21330891-8199-47ad-b02c-20b67e333aef",
+      "Name": "Content",
+      "Alias": "content",
+      "PropertyTypes": [
+        {
+          "Key": "8b4a2d37-0057-43da-b416-53885c6ad057",
+          "Alias": "bodyText",
+          "DataType": "umb://data-type/ca90c9500aff4e72b976a30b1ac57dad",
+          "Name": "Body Text"
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/9cdcd9aa8f064207ada7cd89ae14d5ba",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/ca90c9500aff4e72b976a30b1ac57dad",
+      "Ordering": true
+    },
+    {
+      "Udi": "umb://template/79460b6b04044776825d5cbc888d8fd6",
+      "Ordering": true,
+      "Mode": "Exist"
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "16.0.0"
+}

@@ -1,0 +1,15 @@
+{
+  "Name": "News Folder",
+  "Alias": "NewsFolder",
+  "File": "umb://template-file/NewsFolder.cshtml",
+  "Udi": "umb://template/92722de4ca68420e88106bedbef97e2f",
+  "Dependencies": [
+    {
+      "Udi": "umb://template-file/NewsFolder.cshtml",
+      "Ordering": true,
+      "Mode": "Exist"
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.TemplateArtifact",
+  "__version": "16.0.0"
+}

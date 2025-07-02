@@ -1,0 +1,27 @@
+{
+  "Name": "News Folder",
+  "Alias": "newsFolder",
+  "DefaultTemplate": "umb://template/92722de4ca68420e88106bedbef97e2f",
+  "AllowedTemplates": [
+    "umb://template/92722de4ca68420e88106bedbef97e2f"
+  ],
+  "HistoryCleanup": {},
+  "Icon": "icon-folders",
+  "Thumbnail": "folder.png",
+  "Permissions": {
+    "AllowedChildContentTypes": []
+  },
+  "CompositionContentTypes": [],
+  "PropertyGroups": [],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/c9bca4c096e44b6184176b3a3338c6dc",
+  "Dependencies": [
+    {
+      "Udi": "umb://template/92722de4ca68420e88106bedbef97e2f",
+      "Ordering": true,
+      "Mode": "Exist"
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "16.0.0"
+}
