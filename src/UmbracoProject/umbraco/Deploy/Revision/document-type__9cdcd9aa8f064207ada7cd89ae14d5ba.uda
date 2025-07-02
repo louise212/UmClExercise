@@ -23,6 +23,13 @@
           "Alias": "bodyText",
           "DataType": "umb://data-type/ca90c9500aff4e72b976a30b1ac57dad",
           "Name": "Body Text"
+        },
+        {
+          "Key": "a8915fb1-1bb1-4c6b-b758-0fb1599f4833",
+          "Alias": "newsDate",
+          "DataType": "umb://data-type/5046194e4237453ca54715db3a07c4e1",
+          "Name": "News Date",
+          "SortOrder": 1
         }
       ]
     }
@@ -30,6 +37,10 @@
   "PropertyTypes": [],
   "Udi": "umb://document-type/9cdcd9aa8f064207ada7cd89ae14d5ba",
   "Dependencies": [
+    {
+      "Udi": "umb://data-type/5046194e4237453ca54715db3a07c4e1",
+      "Ordering": true
+    },
     {
       "Udi": "umb://data-type/ca90c9500aff4e72b976a30b1ac57dad",
       "Ordering": true
